@@ -1,0 +1,157 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Explora&family=Roboto:wght@700&display=swap');
+ body{
+    background-color: rgb(220, 220, 233);
+ }
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    
+    padding: 33px 0 32px;
+    background-color: rgb(218, 205, 205);
+}
+.container{
+    
+    margin: 0 auto;
+    padding: 0 45px;
+    background-color: rgb(191, 191, 233);
+}
+.logo{
+    /* height:70px;
+    width: 50px; */
+    font-family: 'Explora', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+.menu{
+    display: flex;
+
+}
+.menu-item{
+    padding-left: 30px;
+    list-style-type:none;
+}
+.menu-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: 'Explora', cursive;
+    font-weight: bold;
+    
+}
+
+.icon img{
+    width:50px;
+    height: 50px;
+}
+.right1 a{
+
+font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.right{
+    display: flex;
+    justify-content: space-between ;
+    gap: 10px;
+    align-items: center;
+}
+.inp{
+height: 30px;
+border-radius: 10px;
+border: none;
+background-image: url("img/search.png");
+background-repeat: no-repeat;
+background-size: 20px;
+background-position: 10px;
+}
+.inp::placeholder{
+    text-align: center;
+}
+
+/* section1 */
+/* left */
+/* top */
+.sidebar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.maine{
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+}
+
+.left-side{
+    flex-direction: column;
+    width: 30%;
+    margin-top: 40px;
+}
+.top h3{
+    font-size: 24px;
+    margin-bottom: 18px;
+    
+}
+.top p{
+    margin-top: 8px;
+    display: flex;
+    line-height: 26px;
+}
+
+
+/* bottom */
+.bottom-rgt img{
+    width: 70px;
+    height: 100px;
+}
+
+.bottom h3{
+  
+    font-size: 24px;
+    margin-bottom: 18px;
+    margin-top: 62px;
+}
+.featured{
+    display: flex;
+    margin-top: 20px;
+}
+
+.bottom-lft {
+    /* display: flex; */
+    align-items: center;
+    margin: 20px;
+    line-height: 30px;
+
+}
+/* right */
+.right-side{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+   
+}
+.imgs{
+padding: 30px;
+}
+.imgs img{
+    width: 220px;
+    height: 270px;
+}
