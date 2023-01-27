@@ -367,6 +367,15 @@ footer a {
         justify-content: center;
         flex-wrap: wrap;
     }
+
+}
+@media (max-width: 700px){
+    .nav{
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -377,14 +386,9 @@ footer a {
         flex-wrap: wrap;
 
     }
-    .nav{
+    
+     .nav{
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        
-    } .nav{
-        display: flex;
-        justify-content: center;
         flex-wrap: wrap;
     }
     .header {
@@ -394,13 +398,34 @@ footer a {
     .menu-link {
         display: flex;
         flex-wrap: wrap;
-        font-size: 10px;
+        font-size: 18px;
     }
+    .right a{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+    .top h3{
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .top a{
+        font-size: 14px;
+    }
+    .bottom h3{
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .bottom-lft p{
+       font-size: 14px; 
+    }
+        
+    
 
 }
 
 @media (max-width: 450px) {
-    
+  
     .maine{
         display: flex;
         justify-content: center;
@@ -432,4 +457,33 @@ footer a {
         justify-content: center;
         flex-wrap: wrap;
     }
+    .menu-link {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+    .right a{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+    .top h3{
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .top a{
+        font-size: 14px;
+    }
+    .bottom h3{
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .bottom-lft p{
+       font-size: 14px; 
+    }
+    .right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+        
 }
